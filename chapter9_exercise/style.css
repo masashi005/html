@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.main-contents{
+
+}
+
+.main-contents-item{
+  display: inline-block;
+  width: 300px;
+  background-color: #eeeeee;
+}
+
+.sample-image:nth-child(1){
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+.step-N{
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: #ff9a4b;
+  font-color: white;
+}
+
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
