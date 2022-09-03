@@ -17,16 +17,18 @@ main{
 }
 
 .main-contents{
+  margin-right: 30px ;
 
 }
 
 .main-contents-item{
+  position: relative;
   display: inline-block;
   width: 300px;
   background-color: #eeeeee;
 }
 
-.sample-image:nth-child(1){
+.sample-image1{
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
@@ -34,12 +36,33 @@ main{
   margin: 10px;
 }
 
+.sample-image2{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+.sample-image3{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+.title{
+  margin: 5px auto;
+}
+
 .step-N{
+  width: 60px;
   position: absolute;
   top:0;
   left: 0;
   background-color: #ff9a4b;
-  font-color: white;
+  color: white;
 }
 
 
